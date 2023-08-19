@@ -1,0 +1,21 @@
+.top_stories {
+    padding: var(--bs-common-padding);
+}
+.common_repeat {
+    border-bottom: 1px solid #eee;
+}
+.stories_img {
+    height: 120px;
+    object-fit: cover;
+}
+
+@media all and (max-width:991px) {
+    #top_stories .col-sm-6 {
+        width: 100%;
+    }
+}
+@media all and (max-width:600px) {
+    .stories_img {
+        height: 250px;
+    }
+}

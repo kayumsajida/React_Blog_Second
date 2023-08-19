@@ -1,0 +1,120 @@
+.middle_area {
+    padding: 6em 0 4em 0;
+}
+
+.middle_area ul {
+    list-style: none;
+    margin: 0 0 20px -30px;
+}
+
+.middle_area li {
+    border-bottom: 1px solid #eee;
+}
+.middle_area li i {
+   font-size: 12px;
+   color: #34c38f;
+   margin: 0 5px 0 0;
+   vertical-align: middle;
+}
+
+.card_widget {
+    width: 100%;
+    background: #fff;
+}
+
+.card_widget_content {
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    -webkit-box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
+    box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
+}
+pre {
+    height: auto;
+    background: #2e3d4c;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.middle_heading_title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+.bg {
+    background: #34c38f;
+    padding: 6px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    display: inline-block;
+}
+
+.middle_area li {
+    border: none;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0 0 5px 0;
+}
+p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 0.5px;
+}
+.left_gap {
+    padding: 0 0 0 20px;
+}
+.left_gap1 {
+    padding: 0 0 0 40px;
+}
+.left_bg {
+    background:#5b73e8!important;
+    color: #fff!important;
+    margin: 0 0 10px 0!important;
+}
+.my-3 th {
+    padding: 10px;
+}
+.form-control:focus {
+    outline:none;
+    box-shadow:none;
+}
+.input-group .btn {
+    color: var(--bs-btn-hover-color)!important;
+    background-color: #2e3d4c!important;
+    border-color: #2e3d4c!important;
+}
+.input-group .btn:hover {
+    background-color: #1b2936!important;
+    border-color: #1b2936!important;
+}
+.result_widget {
+    width: 100%;
+}
+.result_widget pre {
+    background: #82c176;
+}
+.tag_widget li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.link_tag {
+    background: #f00;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+}

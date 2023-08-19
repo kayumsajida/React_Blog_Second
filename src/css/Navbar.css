@@ -1,0 +1,31 @@
+ul {
+  margin-bottom: 0;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+.navbar-brand {  
+  font-weight: var(--bs-common-weight);
+}
+.navbar-brand span {  
+  color: var(--bs-common-blue);
+}
+
+@media all and (max-width:991px) {
+  .navbar-toggler {
+    padding: 2px 8px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: 1px solid var(--bs-common-blue);
+  }
+  .navbar-toggler-icon {
+    width: 1.2em;
+    height: 1.5em;
+  }
+}

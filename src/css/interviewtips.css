@@ -1,0 +1,29 @@
+.react_area {
+    padding: var(--bs-common-padding);
+    background: var(--bs-black);
+}
+.react_area li {
+    color: var(--bs-white);
+    font-size: var(--bs-small-font);
+}
+.interview_img {
+    height: 150px;
+    object-fit: cover;
+}
+.react_area figure {
+    margin: 0;
+}
+
+@media all and (max-width:991px) {
+    #react_area .col-sm-6 {
+        width: 100%;
+    }
+}
+@media all and (max-width:600px) {
+    .interview_img {
+        height: 250px;
+    }
+    .right_padding {
+        padding: 10px;
+    }
+}

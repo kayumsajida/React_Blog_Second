@@ -1,0 +1,26 @@
+.common_inner {
+    padding: var(--bs-common-padding);
+    background: var(--bs-white);
+}
+.bg_code {
+    background: var(--bs-light-black);
+    padding: var(--bs-common-padding-around);
+    color: var(--bs-white);
+    border-radius: var(--bs-common-radius);
+}
+.react_common_topic {
+    padding: var(--bs-common-padding);
+    background: var(--bs-gray-common);
+}
+.white_widget_inner {
+    background: var(--bs-white);
+    padding: var(--bs-common-padding-around);
+}
+@media all and (max-width:991px) {
+    #common_inner .col-sm-9 {
+        width: 100%;
+    }
+    #common_inner .col-sm-3 {
+        width: 100%;
+    }
+}
